@@ -16,10 +16,6 @@
 
 }
 
-footer{
-    border-bottom: solid 6px #ea0026;
-}
-
 input.inp:focus, textarea.form-message:focus{
 	border-color: #ea0026;
 }
