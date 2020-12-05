@@ -1,0 +1,169 @@
+@font-face{
+    font-family: test ;
+    src: url(/font/AvenirNextLTPro-HeavyCnIt.otf);
+}
+
+.content-wrapper {
+	/*display: flex; 
+*/}
+
+.content-wrapper h2 {
+	color: #547f75;
+	font-size: 20px;
+	font-weight: 780;
+}
+
+.over-view {
+  position: fixed;
+  padding: 0;
+}
+
+.over-view .floating-pirate {
+	position: sticky;
+	top: 0;
+}
+
+.floating-pirate p {
+	font-size: 11px;
+	color: #e9e0c8;
+}
+
+.floating-pirate button {
+  background: inherit;
+  border: none;
+  width: 70px;  
+  height: 70px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.floating-pirate i {
+  color: #d95e46;
+  font-size: 20px;
+  float: left;
+}
+
+.detail {
+	/*padding: 10px 80px;*/
+  width: 80%;
+  float: right;
+  padding: 0;
+}
+
+.detail .illustrated-img {
+	width: 100%;
+	height: auto;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.detail .img-explain {
+	font-size: 12.9px;
+  padding-left: 120px;
+  padding-right: 222px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  color: #e9e0c8;
+}
+
+.detail h3 {
+	font-size: 12.9px;
+	font-weight: 700;
+}
+
+{
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 20%	;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.floating-pirate button:hover {
+  border: 2px solid #e9e0c8;;
+}
+
+
+
+/*.content-wrapper .over-view {
+	position: absolute;
+}*/
